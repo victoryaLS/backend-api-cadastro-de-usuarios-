@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "dev": "nodemon server.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.19",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "6.19"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma": "6.19"
+  }
+
+}
